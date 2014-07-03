@@ -1,0 +1,24 @@
+[color]
+	ui = auto
+[user]
+	name = ###enter username here###
+	email = ###enter email here###
+[gui]
+	editor = subl
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	me = merge
+	tree = log --pretty=oneline --decorate --graph --abbrev-commit
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	df = diff
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 292x69+794+26
+	main-window-view = HistoryView
+	file-view-vpane-position = 809
+	history-view-vpane-position = 818
+[core]
+	excludesfile = ~/.gitignore
