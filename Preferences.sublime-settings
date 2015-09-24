@@ -1,24 +1,40 @@
 {
+	"auto_match_enabled": true,
 	"bold_folder_labels": true,
-	"detect_indentation": false,
-        "hide_minimap": false,
-        "draw_minimap_border": true,
-        "always_show_minimap_viewport": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"detect_slow_plugins": false,
+
+	//indent
+	"draw_indent_guides": false,
+
+	//minimap
+	"draw_minimap_border": true,
+	"hide_minimap": false,
+	"always_show_minimap_viewport": true,
+
 	"fade_fold_buttons": false,
-	"find_selected_text": true,
+	"fallback_encoding": "UTF-8",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 13.0,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
+
 	"ignored_packages":
 	[
+		"Tomorrow Color Schemes",
+		"Vagrant",
 		"Vintage"
 	],
-	"shift_tab_unindent": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"tab_size": 4,
- 	"translate_tabs_to_spaces": true,
-  	"highlight_modified_tabs": true,
-   	"trim_trailing_white_space_on_save": true,
-	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
-	"word_wrap": true,
-	"wrap_width": 120,
-	"caret_style": "phase",
-        "use_tab_stops": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
