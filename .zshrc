@@ -16,15 +16,22 @@ antigen bundle common-aliases
 antigen bundle autojump
 antigen bundle compleat
 antigen bundle osx
-#antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle tysonwolker/iterm-tab-colors
 
 # Load the theme.
 #antigen theme af-magic
-antigen theme muse
-#antigen theme agnoster
+#antigen theme muse
 #antigen theme pygmalion
-#antigen theme gnzh
-#antigen theme ys
+#antigen theme LasaleFamine/phi-zsh-theme
+#antigen theme aaronjamesyoung/aaron-zsh-theme
+antigen theme agnoster
 
 # Tell antigen that you're done.
 antigen apply
+
+source /Users/rdevarajan/.iterm2_shell_integration.zsh
+
+#path
+export PATH=/usr/local/bin:$PATH
+export PATH=~/scripts:$PATH
